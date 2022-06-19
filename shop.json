@@ -1,0 +1,74 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "R1",
+      "priceOld": "1.000.000",
+      "priceNew": "838.000.000VNĐ",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "from": "vn",
+      "sold": "10",
+      "brand": "T Motor",
+      "discount": "90%",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html"
+    },
+    {
+      "name": "Honda CBR 1000RRR",
+      "priceOld": "1.000.000.000VNĐ",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "img": "https://photo2.tinhte.vn/data/attachment-files/2020/09/5163521_Xe_Tinhte_BMW_M1000RR--5.jpg",
+      "id": 2
+    },
+    {
+      "name": "r1m",
+      "priceNew": "880.000.000VNĐ",
+      "priceOld": "1.000.000.000VNĐ",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "discount": "90%",
+      "sold": "10",
+      "from": "Tokyo",
+      "id": 3
+    },
+    {
+      "name": "r1",
+      "priceOld": "1.050.000.000VNĐ",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "discount": "1%",
+      "sold": "101",
+      "from": "Tokyo",
+      "id": 4
+    },
+    {
+      "name": "r11",
+      "priceOld": "1.050.001.000VNĐ",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "discount": "1%",
+      "sold": "1011",
+      "from": "Tokyo",
+      "id": 5
+    },
+    {
+      "name": "r11",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "priceOld": "1.050.001.000VNĐ",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "discount": "15%",
+      "sold": "1011",
+      "from": "Tokyo",
+      "id": 6
+    },
+    {
+      "name": "r11",
+      "priceOld": "1.050.001.000VNĐ",
+      "link":"https://giaxe.2banh.vn/yamaha/r1-2020.html",
+      "img": "https://i.pinimg.com/originals/6e/8c/41/6e8c41eeb30fdf900d560bb373d14c3c.jpg",
+      "discount": "5%",
+      "sold": "1011",
+      "from": "Tokyo",
+      "id": 7
+    }
+  ]
+}

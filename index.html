@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TmRacing</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/pageproduct.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+<!-- Header --> 
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar--list">
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--has-qr">
+                            Vào cửa hàng trên ứng dụng TCR-Shop
+                           <!-- QRCode & Link Download -->
+                            <div class="header__qrcode">
+                                <img src="./assets/img/qr_img.png" alt="QRCode" class="header__qrcode-img">
+                                <div class="header__app">
+                                    <a href="" class="header__app-link">
+                                        <img src="./assets/img/appstore_img.png" alt="AppStore" class="header__app-img">
+
+                                    </a>
+                                    <a href="" class="header__app-link">
+                                        <img src="./assets/img/googleplay_img.png" alt="GooglePlay" class="header__app-img">
+
+                                    </a>
+                                </div> 
+                            </div>
+                        
+                        </li>
+                        <li class="header__navbar-item">
+                             <span class="header__navbar-item--no_pointer" >kết nối</span>
+                             <a href="https://www.facebook.com/groups/2326708700958044" class="header__navbar-icon-link">
+                                 <i class="fab fa-facebook-square icon-conect-with-fb"></i> 
+                             </a>
+                             <a href="https://twitter.com/?lang=vi" class="header__navbar-icon-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                             
+                        </li>
+                    </ul>
+                    <ul class="header__navbar--list">
+                             <!-- Notification -->
+                        <li class="header__navbar-item header__noti-header--has-noti">
+                            <a href="" class="header__navbar-item-link">                               
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="far fa-bell"></i>
+                                </a>
+                                Thông báo
+                                <div class="header__noti">
+                                    <header class="header__noti-header ">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__noti-list">
+                                        <li class="header__noti-item header__navbar-item--view">
+                                            <a href="" class="header__noti-link">
+                                                <img src="./assets/img/sp.jpg" alt="SC-Project" class="header__noti-img">
+                                                <div class="header__noti-info">
+                                                    <span class="header__noti-name">Pô SC Project S1 chuyện cho xe 300cc-400cc</span>
+                                                    <span class="header__noti_discrip">Đồ chơi xe</span>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__noti-item header__navbar-item--view">
+                                            <a href="" class="header__noti-link">
+                                                <img src="./assets/img/sp.jpg" alt="SC-Project" class="header__noti-img">
+                                                <div class="header__noti-info">
+                                                    <span class="header__noti-name">Pô SC Project S1</span>
+                                                    <span class="header__noti_discrip">Đồ chơi xe</span>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__noti-item header__navbar-item--view">
+                                            <a href="" class="header__noti-link">
+                                                <img src="./assets/img/sp.jpg" alt="SC-Project" class="header__noti-img">
+                                                <div class="header__noti-info">
+                                                    <span class="header__noti-name">Pô SC Project S1</span>
+                                                    <span class="header__noti_discrip">Đồ chơi xe</span>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__noti-footer">
+                                        <a href="" class="header__noti-total">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                           </a>
+
+
+                        </li>
+                        <li class="header__navbar-item ">
+                            <a href="" class="header__navbar-item-link">
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="far fa-question-circle"></i>
+                                </a>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- khi chưa đăng nhập use -->
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/sp-vo-lang.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">VAnh</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+    
+                </nav>
+                <!-- header with search -->
+                <div class="header-with-search">
+                    <!-- menu for mobile -->
+
+                    <!-- For mobile -->
+                    <nav class="header-category">
+                        <label for="header__mobile-input"  class="header__nav_bars">
+                            <i class="header__bars-icon fas fa-bars" ></i>
+                        </label>
+                        <input type="checkbox" name="" class="header__input" id="header__mobile-input">
+                        <label for="header__mobile-input" class="header__overlay"></label>
+                        <nav class="header__mobile">
+                            <label for="header__mobile-input" class="header__mobile-close">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                            </label>
+                            <h3 class="category__heading">Danh sách</h3>
+                                <ul class="category-list">
+                                    <li class="category-item category-item--active">
+                                        <a href="#" class="category-item__link">Tất cả các hãng</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Apple</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Asus</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Acer</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Dell</a>
+                                    </li>
+                                </ul>
+                         </nav>
+                    </nav>
+                    <!-- end menu -->
+                    <a href="./index.html" class="header__logo-link">
+                        <div class="header__logo">
+                            <img  class="header__logo-img" src="./assets/img/MOtor.png" alt="">
+                        </div>
+                    </a>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input class="header__search-input" type="text" placeholder="Tìm sản phẩm,thương hiệu bạn mong muốn">
+                            <!-- Search-history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Xem lịch sử làm gì???</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Không hiện lịch sử đâu !!!</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-chevron-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+    
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">11</span>
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/nocart.jpg" alt="" class="header__cart-no-cart-img">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item ">
+                                    <!-- cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp-ferrari.jpg" class="header__cart-img" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Ferrari Roma Limited Edition One Plus Limited Edition One Plus</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000.000</span>
+                                                    <span class="header__cart-item-multiply">x</span> 
+                                                    <span class="header__cart-item-qnt">1</span>                                      
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Phân loại:Super Car</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp-lambo.jpg" class="header__cart-img" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Lamborghini Sian</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000.000</span>
+                                                    <span class="header__cart-item-multiply">x</span> 
+                                                    <span class="header__cart-item-qnt">1</span>                                      
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Phân loại:Super Car</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp-lambo.jpg" class="header__cart-img" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Lamborghini Sian</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000.000</span>
+                                                    <span class="header__cart-item-multiply">x</span> 
+                                                    <span class="header__cart-item-qnt">1</span>                                      
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Phân loại:Super Car</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <!--container -->
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">Danh sách</h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Tất cả xe</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">BMW</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Lamborghini</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Mecedes-benz</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">postter đây là banner quảng cáo xe, tăng gia dịch vụ </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                        
+
+                            <!-- end input -->
+                    </div>
+                    <div class="grid__column-10">
+                        <!-- mobile -->
+                        <!-- input begin -->
+                        <div class="abc">
+
+                            <div class="home-filter-mobile">
+                                <span class="home-filter-mobile-sort">Sắp xếp theo</span>
+                                <i class="home-filter-mobile-icon fas fa-sort-down"></i>
+                                <!-- menu for mobile -->
+                                <ul class="home-filter-mobile-list">
+                                    <li class="home-filter-mobile-item">
+                                        <a href="" class="home-filter-mobile-link">
+                                            Phổ Biến</li>
+                                        </a>
+                                    <li class="home-filter-mobile-item">
+                                        <a href="" class="home-filter-mobile-link">
+                                            Mới Nhất</li>
+                                        </a>
+                                    <li class="home-filter-mobile-item">
+                                        <a href="" class="home-filter-mobile-link">
+                                            Bán Chạy</li>
+                                        </a>
+                                    <li class="home-filter-mobile-item">
+                                        <a href="" class="home-filter-mobile-link">
+                                            Giá thấp đến cao</li>
+                                        </a>
+                                    <li class="home-filter-mobile-item">
+                                        <a href="" class="home-filter-mobile-link">
+                                            Giá cao đến thấp</li>
+                                        </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- pc -->
+                        <div class="home-filter">
+                            <span class="home-filter__label">sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ Biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới Nhất</button>
+                            <button class="home-filter__btn btn">Bán Chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá:thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá:cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num-current">1</span>
+                                    /77
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product -->
+                        <div class="home-product">
+                            <div class="grid__row list_product">
+                                <!-- Product in HomePage -->
+                                
+                            </div>
+                        </div>
+                        <!-- Pagination-Phân trang-chuyển trang -->
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item ">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="grid_product">
+                <div class="product__page">
+                    <div class="product__info">
+                        <div class="product__header">
+                            <div class="product__img">
+                                <img class="product__img-father" src="./assets/img/product/r1a.png" alt="">
+                                <div class="propduct__img-list">
+                                    <img class="product__img-children" src="./assets/img/product/r1a.png" alt="">
+                                    <img class="product__img-children" src="./assets/img/product/r1a.png" alt="">
+                                    <img class="product__img-children" src="./assets/img/product/r1a.png" alt="">
+                                </div>
+                            </div>
+                            <div class="product__body">
+                                <h2>Yamaha R1 2020 Chính Hãng </h2>
+                                <h1 class="product__body-price">760.000.000</h1>
+                                <Button class="button-buy">Mua Ngay</Button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-10">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">TCar Blog</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Vận chuyển</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm bảo hành</a>
+                            </li>                                                                                                                        
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-10">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về TCar</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính hãng</a>
+                            </li>
+                        </ul>                                                                                                                        
+                    </div>
+                    <div class="grid__column-2-10">
+                        <h3 class="footer__heading">Thanh toán</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <img src="./assets/img/paypal.png" alt="" class="footer-item__img-pay">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-10">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-10">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/qr_img.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/appstore_img.png" alt="Google Play" class="footer__download-apps-img">
+                                </a>
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/googleplay_img.png" alt="AppStore" class="footer__download-apps-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty TNHH TCar</p>
+                </div>
+            </div>
+        </footer>            
+    </div>
+
+<!-- Modal để làm form đăng nhập đăng kí ... -->
+            <!-- <div class="modal"> -->
+            <!-- Phần backgroud mờ đi -->
+                <!-- <div class="modal__overlay"></div> -->
+            <!-- Phần body để sd -->
+                <!-- <div class="modal__body">                    -->
+                    <!-- Form đăng nhập -- Authen form -->
+                    <!--<div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng ký</h3>
+                                <span class="auth-form__switch-bnt">Đăng nhập</span>
+                            </div>
+                            <div class="auth-form__form">
+                                    
+                                    <div class="auth-form__group">
+                                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                    </div>
+                                    <div class="auth-form__group">
+                                        <input type="password" class="auth-form__input" placeholder="Mật Khẩu của bạn">
+                                    </div>
+                                    <div class="auth-form__group">
+                                        <input type="password"  class="auth-form__input"placeholder="Nhập lại mật khẩu">
+                                    </div>
+                            </div>
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy">
+                                    Bằng việc đăng ký,bạn đồng ý với 
+                                    <a href="" class="auth-form__text-link" >Điều khoản dịch vụ</a>&
+                                    <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                                    của chúng tôi
+                                </p>
+
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normals-back auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                <span class="auth-form__socials-title">
+                                    Kết nối với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google"></i>
+                                <span class="auth-form__socials-title">                                    
+                                    Kết nối với Google
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>-->                 
+                    <!-- Dăng ký -->
+                    <!--<div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng nhập</h3>
+                                <span class="auth-form__switch-bnt">Đăng ký</span>
+                            </div>
+                            <div class="auth-form__form">
+                                    
+                                    <div class="auth-form__group">
+                                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                    </div>
+                                    <div class="auth-form__group">
+                                        <input type="password" class="auth-form__input" placeholder="Mật Khẩu của bạn">
+                                    </div>
+                                    
+                            </div>
+                            <div class="auth-form__aside">
+                                <div class="auth-form__help">
+                                    <a href="" class="auth-form__help-link  auth-form__help-forgot">Quên mật khẩu</a>
+                                    <span class="auth-form__help-separate"></span>
+                                    <a href="" class="auth-form__help-link">Cần trợ giúp ?</a>
+                                </div>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normals-back auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                <span class="auth-form__socials-title">
+                                    Kết nối với Facebook
+                                </span>
+                            </a>
+                            <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google"></i>
+                                <span class="auth-form__socials-title">                                    
+                                    Kết nối với Google
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>-->                 
+                
+                
+                
+                <!-- </div> -->
+            <!-- </div>  -->
+
+          <!-- KT modal -->
+          <script src="./shop.js"></script>
+</body>
+</html>
